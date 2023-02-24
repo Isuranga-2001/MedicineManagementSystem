@@ -8,5 +8,15 @@ namespace MedicineManagementSystem.Pages
         public void OnGet()
         {
         }
+
+        public void OnGetOnClick()
+        {
+            Response.Redirect("https://www.google.com");
+        }
+
+        protected void btnLogin_Click(object sender, EventArgs e)
+        {
+            Console.WriteLine("hello");
+        }
     }
 }
